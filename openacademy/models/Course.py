@@ -7,4 +7,4 @@ class Course(models.Model):
 
     name = fields.Char(string="Title", required=True)
     description = fields.Text()
- 
+  
