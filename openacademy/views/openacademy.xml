@@ -9,11 +9,13 @@
             <sheet> 
                 <group> 
                     <field name = "name"/> 
-                    <field name = "description"/> </group> 
+                    <field name = "description"/> 
+                </group> 
             </sheet> 
         </form> 
     </field> 
 </record>             
-             
+                     <!--acción de ventana--> 
+        <!--La siguiente etiqueta es una definición de acción para una "acción de ventana",-->
 
 </odoo>
