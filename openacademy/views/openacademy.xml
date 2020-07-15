@@ -5,11 +5,17 @@
     <field name = "model"> openacademy.course </field>
     <field name = "arch" type = "xml"> 
         <form string = "Course Form"> 
-            <sheet> 
+             <sheet> 
                 <group> 
-                    <field name = "name" />
-                    <field name = "description" /> 
-                 </group> 
+                    <field  name = "name" /> 
+                </group> 
+                    <notebook> 
+                        <page string = "Descripción" >
+                            <field name = "description" />
+                        </page> 
+                     <page string = "Acerca de" > Este es un ejemplo de cuadernos </page>
+                      </notebook> 
+            
             </sheet> 
         </form>
     </field>
