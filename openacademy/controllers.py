@@ -17,4 +17,4 @@ from odoo import http
 #     def object(self, obj, **kw):
 #         return http.request.render('openacademy.object', {
 #             'object': obj
-#         }) 
+#         })
